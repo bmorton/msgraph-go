@@ -1,0 +1,4 @@
+input-file: msgraph-metadata/openapi/v1.0/openapi.yaml
+go: true
+output-folder: /opt/msgraph/msgraph/
+namespace: msgraph
