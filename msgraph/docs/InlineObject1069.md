@@ -1,0 +1,174 @@
+# InlineObject1069
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**KeepEnrollmentData** | Pointer to **NullableBool** |  | [optional] [default to false]
+**KeepUserData** | Pointer to **NullableBool** |  | [optional] [default to false]
+**MacOsUnlockCode** | Pointer to **NullableString** |  | [optional] 
+**PersistEsimDataPlan** | Pointer to **NullableBool** |  | [optional] [default to false]
+
+## Methods
+
+### NewInlineObject1069
+
+`func NewInlineObject1069() *InlineObject1069`
+
+NewInlineObject1069 instantiates a new InlineObject1069 object
+This constructor will assign default values to properties that have it defined,
+and makes sure properties required by API are set, but the set of arguments
+will change when the set of required properties is changed
+
+### NewInlineObject1069WithDefaults
+
+`func NewInlineObject1069WithDefaults() *InlineObject1069`
+
+NewInlineObject1069WithDefaults instantiates a new InlineObject1069 object
+This constructor will only assign default values to properties that have it defined,
+but it doesn't guarantee that properties required by API are set
+
+### GetKeepEnrollmentData
+
+`func (o *InlineObject1069) GetKeepEnrollmentData() bool`
+
+GetKeepEnrollmentData returns the KeepEnrollmentData field if non-nil, zero value otherwise.
+
+### GetKeepEnrollmentDataOk
+
+`func (o *InlineObject1069) GetKeepEnrollmentDataOk() (*bool, bool)`
+
+GetKeepEnrollmentDataOk returns a tuple with the KeepEnrollmentData field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetKeepEnrollmentData
+
+`func (o *InlineObject1069) SetKeepEnrollmentData(v bool)`
+
+SetKeepEnrollmentData sets KeepEnrollmentData field to given value.
+
+### HasKeepEnrollmentData
+
+`func (o *InlineObject1069) HasKeepEnrollmentData() bool`
+
+HasKeepEnrollmentData returns a boolean if a field has been set.
+
+### SetKeepEnrollmentDataNil
+
+`func (o *InlineObject1069) SetKeepEnrollmentDataNil(b bool)`
+
+ SetKeepEnrollmentDataNil sets the value for KeepEnrollmentData to be an explicit nil
+
+### UnsetKeepEnrollmentData
+`func (o *InlineObject1069) UnsetKeepEnrollmentData()`
+
+UnsetKeepEnrollmentData ensures that no value is present for KeepEnrollmentData, not even an explicit nil
+### GetKeepUserData
+
+`func (o *InlineObject1069) GetKeepUserData() bool`
+
+GetKeepUserData returns the KeepUserData field if non-nil, zero value otherwise.
+
+### GetKeepUserDataOk
+
+`func (o *InlineObject1069) GetKeepUserDataOk() (*bool, bool)`
+
+GetKeepUserDataOk returns a tuple with the KeepUserData field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetKeepUserData
+
+`func (o *InlineObject1069) SetKeepUserData(v bool)`
+
+SetKeepUserData sets KeepUserData field to given value.
+
+### HasKeepUserData
+
+`func (o *InlineObject1069) HasKeepUserData() bool`
+
+HasKeepUserData returns a boolean if a field has been set.
+
+### SetKeepUserDataNil
+
+`func (o *InlineObject1069) SetKeepUserDataNil(b bool)`
+
+ SetKeepUserDataNil sets the value for KeepUserData to be an explicit nil
+
+### UnsetKeepUserData
+`func (o *InlineObject1069) UnsetKeepUserData()`
+
+UnsetKeepUserData ensures that no value is present for KeepUserData, not even an explicit nil
+### GetMacOsUnlockCode
+
+`func (o *InlineObject1069) GetMacOsUnlockCode() string`
+
+GetMacOsUnlockCode returns the MacOsUnlockCode field if non-nil, zero value otherwise.
+
+### GetMacOsUnlockCodeOk
+
+`func (o *InlineObject1069) GetMacOsUnlockCodeOk() (*string, bool)`
+
+GetMacOsUnlockCodeOk returns a tuple with the MacOsUnlockCode field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetMacOsUnlockCode
+
+`func (o *InlineObject1069) SetMacOsUnlockCode(v string)`
+
+SetMacOsUnlockCode sets MacOsUnlockCode field to given value.
+
+### HasMacOsUnlockCode
+
+`func (o *InlineObject1069) HasMacOsUnlockCode() bool`
+
+HasMacOsUnlockCode returns a boolean if a field has been set.
+
+### SetMacOsUnlockCodeNil
+
+`func (o *InlineObject1069) SetMacOsUnlockCodeNil(b bool)`
+
+ SetMacOsUnlockCodeNil sets the value for MacOsUnlockCode to be an explicit nil
+
+### UnsetMacOsUnlockCode
+`func (o *InlineObject1069) UnsetMacOsUnlockCode()`
+
+UnsetMacOsUnlockCode ensures that no value is present for MacOsUnlockCode, not even an explicit nil
+### GetPersistEsimDataPlan
+
+`func (o *InlineObject1069) GetPersistEsimDataPlan() bool`
+
+GetPersistEsimDataPlan returns the PersistEsimDataPlan field if non-nil, zero value otherwise.
+
+### GetPersistEsimDataPlanOk
+
+`func (o *InlineObject1069) GetPersistEsimDataPlanOk() (*bool, bool)`
+
+GetPersistEsimDataPlanOk returns a tuple with the PersistEsimDataPlan field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetPersistEsimDataPlan
+
+`func (o *InlineObject1069) SetPersistEsimDataPlan(v bool)`
+
+SetPersistEsimDataPlan sets PersistEsimDataPlan field to given value.
+
+### HasPersistEsimDataPlan
+
+`func (o *InlineObject1069) HasPersistEsimDataPlan() bool`
+
+HasPersistEsimDataPlan returns a boolean if a field has been set.
+
+### SetPersistEsimDataPlanNil
+
+`func (o *InlineObject1069) SetPersistEsimDataPlanNil(b bool)`
+
+ SetPersistEsimDataPlanNil sets the value for PersistEsimDataPlan to be an explicit nil
+
+### UnsetPersistEsimDataPlan
+`func (o *InlineObject1069) UnsetPersistEsimDataPlan()`
+
+UnsetPersistEsimDataPlan ensures that no value is present for PersistEsimDataPlan, not even an explicit nil
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

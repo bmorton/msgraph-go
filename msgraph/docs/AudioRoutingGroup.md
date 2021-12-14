@@ -1,0 +1,118 @@
+# AudioRoutingGroup
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Receivers** | Pointer to **[]string** | List of receiving participant ids. | [optional] 
+**RoutingMode** | Pointer to [**AnyOfmicrosoftGraphRoutingMode**](anyOf&lt;microsoft.graph.routingMode&gt;.md) | Routing group mode.  Possible values are: oneToOne, multicast. | [optional] 
+**Sources** | Pointer to **[]string** | List of source participant ids. | [optional] 
+
+## Methods
+
+### NewAudioRoutingGroup
+
+`func NewAudioRoutingGroup() *AudioRoutingGroup`
+
+NewAudioRoutingGroup instantiates a new AudioRoutingGroup object
+This constructor will assign default values to properties that have it defined,
+and makes sure properties required by API are set, but the set of arguments
+will change when the set of required properties is changed
+
+### NewAudioRoutingGroupWithDefaults
+
+`func NewAudioRoutingGroupWithDefaults() *AudioRoutingGroup`
+
+NewAudioRoutingGroupWithDefaults instantiates a new AudioRoutingGroup object
+This constructor will only assign default values to properties that have it defined,
+but it doesn't guarantee that properties required by API are set
+
+### GetReceivers
+
+`func (o *AudioRoutingGroup) GetReceivers() []*string`
+
+GetReceivers returns the Receivers field if non-nil, zero value otherwise.
+
+### GetReceiversOk
+
+`func (o *AudioRoutingGroup) GetReceiversOk() (*[]*string, bool)`
+
+GetReceiversOk returns a tuple with the Receivers field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetReceivers
+
+`func (o *AudioRoutingGroup) SetReceivers(v []*string)`
+
+SetReceivers sets Receivers field to given value.
+
+### HasReceivers
+
+`func (o *AudioRoutingGroup) HasReceivers() bool`
+
+HasReceivers returns a boolean if a field has been set.
+
+### GetRoutingMode
+
+`func (o *AudioRoutingGroup) GetRoutingMode() AnyOfmicrosoftGraphRoutingMode`
+
+GetRoutingMode returns the RoutingMode field if non-nil, zero value otherwise.
+
+### GetRoutingModeOk
+
+`func (o *AudioRoutingGroup) GetRoutingModeOk() (*AnyOfmicrosoftGraphRoutingMode, bool)`
+
+GetRoutingModeOk returns a tuple with the RoutingMode field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetRoutingMode
+
+`func (o *AudioRoutingGroup) SetRoutingMode(v AnyOfmicrosoftGraphRoutingMode)`
+
+SetRoutingMode sets RoutingMode field to given value.
+
+### HasRoutingMode
+
+`func (o *AudioRoutingGroup) HasRoutingMode() bool`
+
+HasRoutingMode returns a boolean if a field has been set.
+
+### SetRoutingModeNil
+
+`func (o *AudioRoutingGroup) SetRoutingModeNil(b bool)`
+
+ SetRoutingModeNil sets the value for RoutingMode to be an explicit nil
+
+### UnsetRoutingMode
+`func (o *AudioRoutingGroup) UnsetRoutingMode()`
+
+UnsetRoutingMode ensures that no value is present for RoutingMode, not even an explicit nil
+### GetSources
+
+`func (o *AudioRoutingGroup) GetSources() []*string`
+
+GetSources returns the Sources field if non-nil, zero value otherwise.
+
+### GetSourcesOk
+
+`func (o *AudioRoutingGroup) GetSourcesOk() (*[]*string, bool)`
+
+GetSourcesOk returns a tuple with the Sources field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetSources
+
+`func (o *AudioRoutingGroup) SetSources(v []*string)`
+
+SetSources sets Sources field to given value.
+
+### HasSources
+
+`func (o *AudioRoutingGroup) HasSources() bool`
+
+HasSources returns a boolean if a field has been set.
+
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
