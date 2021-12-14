@@ -2,6 +2,17 @@
   "$schema": "node_modules/@openapitools/openapi-generator-cli/config.schema.json",
   "spaces": 2,
   "generator-cli": {
-    "version": "5.3.0"
+    "version": "5.3.0",
+    "generators": {
+      "msgraph": {
+        "generatorName": "go",
+        "output": "#{cwd}/msgraph",
+        "glob": "openapi.fixed.yaml",
+        "additionalProperties": {
+          "packageName": "msgraph",
+          "packageVersion": "1.0.0"
+        }
+      }
+    }
   }
 }
